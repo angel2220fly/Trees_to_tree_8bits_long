@@ -1,12 +1,14 @@
 # Calculate the maximum length of binary numbers based on the given number
 finish=0
 times=0
-num = int(input("Enter a number: "))
+num = int(input("Enter a number 0-1000000000: "))
 binary_representation_before=len(format(num,'01b'))
 print("binary_representation_before_long")
 print(binary_representation_before)
 while finish!=1:
-	if num < 0:
+	if num > 1000000000:
+	    print("This number is too big!.")	
+	elif num < 0:
 	    print("Please enter a non-negative integer.")
 	else:
 	    max_length = len(format(num, 'b'))
