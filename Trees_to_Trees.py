@@ -113,10 +113,10 @@ while finish1!=1:
 		        if length_tree<9 and binary_representation_before==binary_representation_before_long and times_after==times and length_tree_after==length_tree and binary_to_number_number_after==binary_to_number:
 		        	finish1=1
 		        	
-		        	print("binary_representation_before")
-		        	print(binary_representation_before)
+		        	print("binary_representation_before_long")
+		        	print(binary_representation_before_long)
 		        	print("times_after")
-		        	print(times_after)
+		        	print(length_tree_after)
 		        	print("binary_to_number_number_after")
 		        	print(binary_to_number_number_after)
 		        	
@@ -127,4 +127,4 @@ while finish1!=1:
 		        	count_number-=1
 		        	print(count_number)
 		    else:
-		        print("No valid binary representation found.")	        	        	        
+		        print("No valid binary representation found.")	        	        
