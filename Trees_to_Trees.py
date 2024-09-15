@@ -112,7 +112,7 @@ while finish1!=1:
 		        	#times_after
 		        	
 		        	#binary_representation_before_long
-		        if length_tree<9 and binary_representation_before==binary_representation_before_long and times_after==times and length_tree_after==length_tree and binary_to_number_number_after==binary_to_number:
+		        if length_tree<9 and binary_representation_before==binary_representation_before_long and times_after==times and binary_to_number_number_after==binary_to_number:
 		        	finish1=1
 		        	
 		        	print("binary_representation_before_long")
